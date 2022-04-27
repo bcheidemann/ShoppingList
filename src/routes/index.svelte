@@ -76,7 +76,7 @@
 </svelte:head>
 
 <div class="column">
-	<h1>Your ToDo Lists</h1>
+	<h1>Your Lists</h1>
 
 	<form on:submit|preventDefault={submit}>
 		<input

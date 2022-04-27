@@ -1,6 +1,6 @@
 <script lang="ts">
     // icons
-    import { faTrash } from '@fortawesome/free-solid-svg-icons'
+    import FaIcons from '@fortawesome/free-solid-svg-icons'
 
     // components
     import Fa from 'svelte-fa/src/fa.svelte';
@@ -16,7 +16,7 @@
     class="trash"
 >
 	<span>Trash</span>
-    <Fa icon={faTrash} />
+    <Fa icon={FaIcons.faTrash} />
 </div>
 
 <style>

@@ -18,7 +18,7 @@
 
 	// state
 	let initialized = false;
-	$: your_lists = new Array() as LocalStorage.Item[LocalStorage.Key['YOUR_LISTS']];
+	$: your_lists = [] as LocalStorage.Item[LocalStorage.Key['YOUR_LISTS']];
 	$: your_lists,
 		initialized && LocalStorage.setItemJson(LocalStorage.Key.JSON.YOUR_LISTS, your_lists);
 
@@ -72,7 +72,7 @@
 </script>
 
 <svelte:head>
-  <title>Your Lists</title>
+	<title>Your Lists</title>
 </svelte:head>
 
 <div class="column">

@@ -1,3 +1,3 @@
 export type ListData = {
-    name: string;
+	name: string;
 };

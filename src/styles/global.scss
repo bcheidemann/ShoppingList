@@ -1,0 +1,65 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+// Theme
+:root {
+	// Primary
+	--color-primary-100: #E3FCF1;
+	--color-primary-200: #C9FAE8;
+	--color-primary-300: #AAF2DE;
+	--color-primary-400: #90E5D5;
+	--color-primary-500: #6BD4CA;
+	--color-primary-600: #4EB6B5;
+	--color-primary-700: #359098;
+	--color-primary-800: #226B7A;
+	--color-primary-900: #144F65;
+
+	// Success
+	--color-success-100: #F0FBD6;
+	--color-success-200: #DFF8AF;
+	--color-success-300: #C2EB84;
+	--color-success-400: #A3D861;
+	--color-success-500: #79BF33;
+	--color-success-600: #5EA425;
+	--color-success-700: #468919;
+	--color-success-800: #316E10;
+	--color-success-900: #225B09;
+
+	// Info
+	--color-info-100: #CBFCFE;
+	--color-info-200: #98F4FE;
+	--color-info-300: #65E3FD;
+	--color-info-400: #3ECFFB;
+	--color-info-500: #00AEF9;
+	--color-info-600: #0087D6;
+	--color-info-700: #0065B3;
+	--color-info-800: #004790;
+	--color-info-900: #003377;
+
+	// Warning
+	--color-warning-100: #FEFBCE;
+	--color-warning-200: #FDF69E;
+	--color-warning-300: #FAEF6E;
+	--color-warning-400: #F5E649;
+	--color-warning-500: #EFD910;
+	--color-warning-600: #CDB80B;
+	--color-warning-700: #AC9808;
+	--color-warning-800: #8A7905;
+	--color-warning-900: #726303;
+
+	// Danger
+	--color-danger-100: #FFEAD4;
+	--color-danger-200: #FFCFAA;
+	--color-danger-300: #FFAD7F;
+	--color-danger-400: #FF8E60;
+	--color-danger-500: #FF592B;
+	--color-danger-600: #DB3A1F;
+	--color-danger-700: #B72115;
+	--color-danger-800: #930D0E;
+	--color-danger-900: #7A0810;
+}
+
+// Styles
+* {
+	font-family: 'Patrick Hand', cursive;
+}

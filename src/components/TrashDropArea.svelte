@@ -1,10 +1,4 @@
 <script lang="ts">
-    // icons
-    import FaIcons from '@fortawesome/free-solid-svg-icons'
-
-    // components
-    import Fa from 'svelte-fa/src/fa.svelte';
-
     // props
     export let onDrop: svelte.JSX.DragEventHandler<HTMLDivElement>;
     export let onDragOver: svelte.JSX.DragEventHandler<HTMLDivElement>;
@@ -16,7 +10,6 @@
     class="trash"
 >
 	<span>Trash</span>
-    <Fa icon={FaIcons.faTrash} />
 </div>
 
 <style>

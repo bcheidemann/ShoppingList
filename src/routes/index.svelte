@@ -120,5 +120,6 @@
 
 	a.item {
 		color: unset;
+		text-decoration: unset;
 	}
 </style>
